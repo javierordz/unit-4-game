@@ -83,7 +83,7 @@ $(document).ready(function () {
             // WIN THE GAME
         } else if (defender.hp <= 0 && $("#backup-panel").children().length == 0) {
             $("#" + defender.index).fadeOut(250);
-            $("#info-title").html(attacker.name + " saved the galaxy!");
+            $("#info-title").html(attacker.name.toUpperCase() + " SAVED THE GALAXY!");
             $("#info-panel").html("&nbsp<br />&nbsp<br />&nbsp");
             $("#defender-title").empty();
             $("#backup-title").empty();
