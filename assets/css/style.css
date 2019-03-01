@@ -1,0 +1,63 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 15px;
+    background-image: url("../images/wall-death-star2.jpg");
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffc500;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+.attack-result {
+    color: #17a2b8;
+}
+
+.counter-result {
+    color: #dc3545;
+}
+
+.container {
+    max-width: inherit;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+}
+.card {
+    width: 11.7rem;
+    flex: 0 1 auto !important;
+    margin: 10px auto;
+    /* float: left; */
+    color: white;
+}
+
+.card:hover {
+    cursor: pointer;
+    opacity: .85;
+    border: 1px solid #ffffff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.card-deck {
+    margin: 0 0 15px;
+}
+
+.bg-secondary {
+    float: left;
+}
